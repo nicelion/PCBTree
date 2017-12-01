@@ -1,9 +1,8 @@
 # PCBTree
-Christmas tree circuit board
-
+A Christmas tree shaped circuit board that every nerd will love!
 
 ## About
-PCBTree fills it's name quite well as it is, exactly what it says: A PCB tree. 
+PCBTree fills it's name quite well as it is, exactly what it says: A PCB tree. The Christmas tree shaped printed circuit board is populated with 6 green LEDs and 6 red LEDs and two yellow LEDs, all controlled by an ATTiny85 to allow the red and green LEDs to flash to you liking.
 
 ## Instruction
 
