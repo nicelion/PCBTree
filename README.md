@@ -18,9 +18,9 @@ Once this is done, the switch on the back of the device must also be switched to
 A dial, professionally, a potentiometer, can be found on the base, towards the front. This dial can be used to adjust the speed the LEDs will flash. The equation is below:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/png.latex?\huge&space;50&space;\geq&space;p_{pot}&space;\geq&space;500" title="\huge 50 \geq p_{pot} \geq 500" />
+  <img src="https://latex.codecogs.com/png.latex?\LARGE&space;50&space;\geq&space;p_{pot}&space;\geq&space;500" title="\LARGE 50 \geq p_{pot} \geq 500" />
   <br>
-  <img src="https://latex.codecogs.com/png.latex?\huge&space;Speed&space;=&space;(a_{pot}&space;\times&space;1.25)" title="\huge Speed = (a_{pot} \times 1.25)" />
+  <img src="https://latex.codecogs.com/png.latex?\LARGE&space;Speed&space;=&space;(a_{pot}&space;\times&space;1.25)" title="\LARGE Speed = (a_{pot} \times 1.25)" />
 </p>
 
 The potentiometer give the microcontroller a value, between 50 and 500, and the delay between the flashing will be the potentiometer value, multiplied by 1.25 in miliseconds.
