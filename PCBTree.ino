@@ -22,33 +22,9 @@ void setup() {
 }
 
 void loop() {
-
-//
-//  digitalWrite(2, HIGH);
-//  delay(300);
-//  digitalWrite(red, HIGH);
-//  digitalWrite(2, LOW);
-//  delay(300);
-//  digitalWrite(red, LOW);
   
   int val = analogRead(pot);
   val = map(val, 0, 1023, lowMap, highMap);
-//
-//  digitalWrite(red, LOW);
-//  delay(val);
-//  digitalWrite(red, HIGH);
-//  digitalWrite(green, LOW);
-//  delay(val);
-//  digitalWrite(green, HIGH); 
-//
-//    digitalWrite(red, LOW);
-//    delay(val * 1.5);
-//    digitalWrite(red, LOW);
-//    delayMicroseconds(10);
-//    digitalWrite(2, LOW);
-//    delay(val * 1.5);
-//    digitalWrite(2, LOW);
-
 
   if (val == lowMap) {
     
@@ -70,7 +46,4 @@ void loop() {
     
   }
 
- 
 }
-
-
